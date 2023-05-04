@@ -7,6 +7,7 @@
         "nx": "nx",
         "start": "ng serve",
         "serve:ngshop": "npx nx run ngshop:serve",
+        "serve:admin": "npx nx run admin:serve --port 4100",
         "build": "ng build",
         "test": "ng test",
         "lint": "nx workspace-lint && ng lint",
