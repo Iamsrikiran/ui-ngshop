@@ -15,6 +15,7 @@
         "skipDefaultLibCheck": true,
         "baseUrl": ".",
         "paths": {
+            "@site-solutions/orders": ["libs/orders/src/index.ts"],
             "@site-solutions/products": ["libs/products/src/index.ts"],
             "@site-solutions/ui": ["libs/ui/src/index.ts"],
             "@site-solutions/users": ["libs/users/src/index.ts"]
