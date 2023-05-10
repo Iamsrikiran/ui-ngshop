@@ -1,18 +1,22 @@
 //Base
-@import '~normalize.css/normalize.css';
 @import './base/colors.scss';
 @import './base/fonts.scss';
 @import './base/mixins.scss';
-@import './base/configuration.scss';
 
 //Lirbaries
 @import '~primeicons/primeicons.css';
 @import '~primeng/resources/themes/lara-light-blue/theme.css';
 @import '~primeng/resources/primeng.min.css';
+@import './base/configuration.scss';
 @import '~primeflex/primeflex.css';
 
-// shared
-@import './apps/admin/shell.scss';
+//Pages
+@import './apps/shop/pages/home-page.scss';
+@import './apps/shop/pages/products-list-page.scss';
+
+//shared
+@import './apps/shop/shared/footer.scss';
+@import './apps/shop/shared/header.scss';
 
 //Libs
 @import './libs/ui/ui.scss';
